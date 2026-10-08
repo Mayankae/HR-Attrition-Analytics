@@ -1,0 +1,7 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>HR Attrition Analytics Dashboard — DWM Mini Project</title><link rel="stylesheet" href="style.css"></head><body>
+<header><h1>Data Mining Analytics Dashboard<small>Data Warehouse &amp; Mining · HR Attrition + Customer Churn · auto attribute detection</small></h1>
+<div class="ctl"><div class="slot" id="slA"><b>A</b><span id="nA"></span><label class="b">Upload<input type="file" id="fA" accept=".csv" onchange="slotUp('A',this)"></label><button onclick="slotUse('A')">Use</button></div><div class="slot" id="slB"><b>B</b><span id="nB"></span><label class="b">Upload<input type="file" id="fB" accept=".csv" onchange="slotUp('B',this)"></label><button onclick="slotUse('B')">Use</button></div><button id="dm">Demo data</button><button onclick="slotReset()">Reset A/B</button></div></header>
+<nav id="nv"></nav><div class="fbar" id="fb"></div>
+<main id="app"><div id="empty">Loading dataset… or upload <b>HR_Employee_Attrition_2500.csv</b>.</div></main>
+<footer>DWM Mini Project · Integrated Enterprise HR Analytics &amp; Employee Attrition Prediction Framework</footer>
+<script src="chart.umd.js"></script><script src="data.js"></script><script src="data2.js"></script><script src="schema.js"></script><script src="dynamic.js"></script><script src="extras.js"></script><script src="compare.js"></script><script src="library.js"></script><script src="app.js"></script></body></html>
